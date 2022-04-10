@@ -1,0 +1,93 @@
+\documentclass[a4paper,12pt]{article}
+    \usepackage[utf8]{inputenc}
+    \usepackage[brazil]{babel}
+    \usepackage[
+        lmargin=3cm,
+        tmargin=3cm,
+        rmargin=2cm,
+        bmargin=2cm,
+        ]{geometry}
+    \usepackage{indentfirst}
+    \usepackage{graphicx}
+        \graphicspath{{./images}}
+    
+    \usepackage{helvet}
+        \renewcommand{\familydefault}{\sfdefault}
+    
+    \usepackage[document]{ragged2e}
+    \usepackage{setspace}
+    \usepackage{lipsum}
+    \usepackage[none]{hyphenat}
+
+    
+    % ---------
+    % VARIABLES:
+    \newcommand{\ACADEMY}{
+        Faculdade Senac Blumenau
+    }
+    \newcommand{\COURSE}{
+        Graduação em Análise e Desenvolvimento de Sistemas
+    }
+    \newcommand{\AUTHORS}{
+        Marcel E. Cattaneo \\
+        Arthur Klung \\
+        Rodrigo Lessa \\
+        Lucas
+    }
+    \newcommand{\SURNAMES}{
+        CATTANEO, Marcel / KLUNG, Arthur / LESSA, Rodrigo / Lucas
+    }
+    \newcommand{\TEACHER}{
+        Diego Pasqualini
+    }
+    \newcommand{\DOCTITLE}{
+        como a computação em nuvem irá \\
+        revolucionar o mundo dos games
+    }
+    \newcommand{\CITY}{
+        Blumenau
+    }
+    \newcommand{\YEAR}{
+        2022
+    }
+    \newcommand{\FULLDATE}{
+        \CITY, 10 de Abril de \YEAR
+    }
+    \newcommand{\PREAMBLE}{
+        \singlespacing
+        \normalsize \justify Trabalho apresentado à \ACADEMY como requisito
+        parcial para obtenção do título de Graduação em \COURSE.
+    }
+    \newcommand{\KEYWORDS}{
+        1. Computação. 2. Nuvem. 3. Games. 4. Internet.
+    }
+    \newcommand{\DOCTYPE}{
+        Trabalho Acadêmico
+    }
+    \newenvironment{fichacatalografica}
+    {
+        \thispagestyle{empty}
+        \begin{singlespacing}
+            \footnotesize
+        \end{singlespacing}
+    }
+    % ---
+    
+    \title \DOCTITLE
+    \author \SURNAMES
+    \date \FULLDATE
+    \begin{document}
+        \pagenumbering{arabic}
+        \include{sections/pre_text/capa}
+        \include{sections/pre_text/folha_rosto}
+        % \include{sections/pre_text/ficha_catalografica}
+        \include{sections/pre_text/folha_aprovacao}
+        \include{sections/pre_text/resumo}
+
+        \tableofcontents
+        \thispagestyle{empty}
+        \newpage
+        \section{Introdução}
+            lol
+            \subsection{Explaining Lua\TeX: Where to start?}
+    \end{document}
