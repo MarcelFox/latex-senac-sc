@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.10)  10 APR 2022 19:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2022.4.10)  10 APR 2022 19:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -161,6 +161,7 @@ LaTeX Font Info:    Trying to load font information for OT1+phv on input line 7
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) (build/main.aux
 (build/sections/pre_text/capa.aux) (build/sections/pre_text/folha_rosto.aux)
+(build/sections/pre_text/ficha_catalografica.aux)
 (build/sections/pre_text/folha_aprovacao.aux)
 (build/sections/pre_text/resumo.aux))
 \openout1 = `main.aux'.
@@ -389,6 +390,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
 
 ]
+\openout2 = `sections/pre_text/ficha_catalografica.aux'.
+
+ (./sections/pre_text/ficha_catalografica.tex
+Overfull \hbox (17.27036pt too wide) in paragraph at lines 27--27
+[]  []  
+ []
+
+) [3
+
+
+
+]
 \openout2 = `sections/pre_text/folha_aprovacao.aux'.
 
  (./sections/pre_text/folha_aprovacao.tex
@@ -446,7 +459,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []\OT1/phv/m/n/12 Blumenau , 10 de Abril de  2022 
  []
 
-) [3
+) [4
 
 
 
@@ -464,7 +477,7 @@ Overfull \hbox (3.86996pt too wide) in paragraph at lines 8--8
 na. Nam ul-la-m-cor-per. Prae-sent
  []
 
-) [4
+) [5
 
 
 
@@ -472,28 +485,29 @@ na. Nam ul-la-m-cor-per. Prae-sent
 \tf@toc=\write3
 \openout3 = `main.toc'.
 
- [5
+ [6
 
 
-] [6] (build/main.aux
+] [7] [8] [9] [10] [11] [12] (build/main.aux
 (build/sections/pre_text/capa.aux) (build/sections/pre_text/folha_rosto.aux)
+(build/sections/pre_text/ficha_catalografica.aux)
 (build/sections/pre_text/folha_aprovacao.aux)
 (build/sections/pre_text/resumo.aux)) ) 
 Here is how much of TeX's memory you used:
- 4346 strings out of 478353
- 81354 string characters out of 5854635
- 474696 words of memory out of 5000000
- 22375 multiletter control sequences out of 15000+600000
- 414037 words of font info for 46 fonts, out of 8000000 for 9000
+ 4387 strings out of 478353
+ 83055 string characters out of 5854635
+ 475953 words of memory out of 5000000
+ 22408 multiletter control sequences out of 15000+600000
+ 416403 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,6n,77p,247b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,7n,77p,247b,268s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/b
 ase/8r.enc}</usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/sha
 re/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on build/main.pdf (6 pages, 26064 bytes).
+Output written on build/main.pdf (12 pages, 29900 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
