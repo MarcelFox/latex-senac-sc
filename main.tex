@@ -18,6 +18,18 @@
     \usepackage{setspace}
     \usepackage{lipsum}
     \usepackage[none]{hyphenat}
+    \usepackage{caption}
+    \usepackage{microtype}
+    \usepackage[
+        alf,
+        versalete,
+        abnt-emphasize = bf,
+        abnt-etal-list = 3,
+        abnt-etal-text = it,
+        abnt-and-type = &,
+        abnt-last-names = abnt,
+        abnt-repeated-author-omit = no
+    ]{abntex2cite}
 
     
     % ---------
@@ -71,13 +83,15 @@
             \footnotesize
         \end{singlespacing}
     }
-    % ---
-    
+
+     % ---
+
     \title \DOCTITLE
     \author \SURNAMES
     \date \FULLDATE
+    \pagestyle{myheadings}
+    \pagenumbering{arabic}
     \begin{document}
-        \pagenumbering{arabic}
         \include{sections/pre_text/capa}
         \include{sections/pre_text/folha_rosto}
         \include{sections/pre_text/ficha_catalografica}
@@ -87,15 +101,13 @@
         \tableofcontents
         \thispagestyle{empty}
         \newpage
-        \section{Introdução}
-            \newpage
-            \subsection{Sub-capítulo}
-                \newpage
-        \section{Objetivos}
-        \newpage
-        \section{Fundamentação Teórica}
+            \include{sections/texts/introducao}
+            \include{sections/texts/objetivos}
+            \include{sections/texts/fundamentacao}
         \newpage
         \section{Metodologia}
         \newpage
         \section{Referências}
+        \bibliographystyle{abntex2-num}
+        \bibliography{references.bib}
     \end{document}
