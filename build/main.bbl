@@ -32,4 +32,18 @@
 {CRAWFORD, C. \textit{et al.} The art of computer game design.
 Osborne/McGraw-Hill Berkeley, CA, 1984.}
 
+\bibitem{albertin2017internet}
+\abntrefinfo{Albertin \& Albertin}{ALBERTIN; ALBERTIN}{2017}
+{ALBERTIN, A.~L.; ALBERTIN, R.~M. de M. A internet das coisas ir{\'a} muito
+  al{\'e}m as coisas.
+\textbf{GV EXECUTIVO}, v.~16, n.~2, p. 12--17, 2017.}
+
+\bibitem{dospersona}
+\abntrefinfo{Santos \& Soares}{SANTOS; SOARES}{}
+{SANTOS, A. F.~F. dos; SOARES, V.~D. Persona: constru{\c{c}}{\~a}o e
+  manuten{\c{c}}{\~a}o da ferramenta na estrat{\'e}gia de marketing de
+  conte{\'u}do.
+\textbf{Revista Pr{\'a}xis-Teoria e pr{\'a}tica publicit{\'a}ria}, n.~1, p.
+  5--15.}
+
 \end{thebibliography}
