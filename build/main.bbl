@@ -7,24 +7,29 @@
 
 \bibitem{taurion2009cloud}
 \abntrefinfo{Taurion}{TAURION}{2009}
-{TAURION, C. \emph{Cloud computing-computa{\c{c}}{\~a}o em nuvem}. [S.l.]:
+{TAURION, C. \textbf{Cloud computing-computa{\c{c}}{\~a}o em nuvem}. [S.l.]:
   Brasport, 2009. 2~p.}
 
 \bibitem{rashid2019cloud}
-\abntrefinfo{Rashid e Chaturvedi}{RASHID; CHATURVEDI}{2019}
+\abntrefinfo{Rashid \& Chaturvedi}{RASHID; CHATURVEDI}{2019}
 {RASHID, A.; CHATURVEDI, A. Cloud computing characteristics and services: a
   brief review.
-\emph{International Journal of Computer Sciences and Engineering}, v.~7, n.~2,
-  p. 421--426, 2019.}
+\textbf{International Journal of Computer Sciences and Engineering}, v.~7,
+  n.~2, p. 421--426, 2019.}
 
 \bibitem{pedrosa2011computaccao}
-\abntrefinfo{Pedrosa e Nogueira}{PEDROSA; NOGUEIRA}{2011}
+\abntrefinfo{Pedrosa \& Nogueira}{PEDROSA; NOGUEIRA}{2011}
 {PEDROSA, P.~H.; NOGUEIRA, T. Computa{\c{c}}{\~a}o em nuvem.
-\emph{Acesso em}, v.~6, 2011.}
+\textbf{Acesso em}, v.~6, 2011.}
+
+\bibitem{huizinga1971homo}
+\abntrefinfo{Huizinga}{HUIZINGA}{1971}
+{HUIZINGA, J. \textbf{Homo ludens: o jogo como elemento da cultura}. [S.l.]:
+  Editora da Universidade de S. Paulo, Editora Perspectiva, 1971. v.~4.}
 
 \bibitem{crawford1984art}
-\abntrefinfo{Crawford et al.}{CRAWFORD et al.}{1984}
-{CRAWFORD, C. et al. The art of computer game design.
+\abntrefinfo{Crawford \textit{et al.}}{CRAWFORD \textit{et al.}}{1984}
+{CRAWFORD, C. \textit{et al.} The art of computer game design.
 Osborne/McGraw-Hill Berkeley, CA, 1984.}
 
 \end{thebibliography}
